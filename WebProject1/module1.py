@@ -1,25 +1,6 @@
 from tkinter import *
 from tkinter import messagebox
 from math import *
-#
-import simplenote
-import time
-
-simplenote = simplenote.Simplenote("devdpnshu@gmail.com","asdasdasd")
-
-i=0
-
-list1= simplenote.get_note_list()[0]
-
-for i in range(0,len(list1)) :
-    #time.sleep(1)
-    print(list1[i]['key'])
-
-#add_note
-string = str ;
-note= {'content':'string'}
-simplenote.add_note(note)
-
 
 
 def helloCallBack():
